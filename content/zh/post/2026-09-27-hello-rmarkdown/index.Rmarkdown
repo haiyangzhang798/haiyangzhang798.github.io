@@ -1,0 +1,41 @@
+---
+title: "你好，R Markdown"
+date: 2026-09-27
+summary: "一篇用 blogdown + R Markdown 写的示例文章：代码、输出和图表都会直接渲染到网页里。"
+authors:
+  - me
+tags:
+  - R
+  - blogdown
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, fig.align = "center")
+```
+
+这篇文章用 **R Markdown**（`.Rmarkdown`）写成。在 RStudio 里保存或 Knit 时，
+blogdown 会运行其中的 R 代码，把结果写入 `index.markdown`，再由 Hugo 生成网页。
+
+## 数据摘要
+
+```{r summary}
+summary(cars)
+fit <- lm(dist ~ speed, data = cars)
+coef(fit)
+```
+
+## 插入图表
+
+```{r scatter, fig.cap = "刹车距离与车速的关系", fig.width = 6, fig.height = 4}
+plot(cars, pch = 19, col = "steelblue",
+     xlab = "Speed (mph)", ylab = "Stopping distance (ft)")
+abline(fit, col = "firebrick", lwd = 2)
+```
+
+## 数学公式
+
+行内公式如 $y = \beta_0 + \beta_1 x + \varepsilon$，也支持独立公式：
+
+$$
+\hat{\beta}_1 = \frac{\sum_i (x_i - \bar{x})(y_i - \bar{y})}{\sum_i (x_i - \bar{x})^2}
+$$

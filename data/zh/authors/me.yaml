@@ -1,0 +1,89 @@
+# ════════════════════════════════════════════════════════════════
+# 个人资料（中文版）
+# 这里的字段会覆盖 data/authors/me.yaml 中的同名字段；没写的字段沿用英文版。
+# ════════════════════════════════════════════════════════════════
+name:
+  display: 张海洋
+  given: 海洋
+  family: 张
+  alternate: 'Ocean'
+role: 教授 博导
+bio: |
+  我是 河北 大学 生命科学学院 系的教授，研究方向为微生物生态学和菌根生态学，
+  主要聚焦丛枝菌根真菌与根瘤菌等方向研究共生微生物介导的草地生态系统碳和养分循环。
+
+affiliations:
+  - name: 河北大学
+        url: https://smkxxy.hbu.cn/info/1099/4203.htm
+
+links:
+  - icon: at-symbol
+    url: zhanghaiyang798@gmail.com
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/haiyangzhang798
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=Dv3rn0YAAAAJ&hl=en
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0001-7951-0502
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Haiyang-Zhang-19
+
+interests:
+  - 菌根真菌
+  - 微生物功能性状
+  - 生态系统碳和养分循环
+
+education:
+  - degree: 生态系统生态学 专业 博士
+    institution: 中科院沈阳生态学所
+    start: 2009-09-01
+    summary: |
+      导师：韩兴国 教授
+
+  - degree: 水土保持 专业 学士
+    institution: 山东农业 大学
+    start: 2005-09-01
+    end: 2009-06-30
+
+experience:
+   - role: 访问学生
+    org: Susan Trumbore 实验室, 马普生物地球化学研究所
+    start: 2012-07-01
+    end: 2014-07-01
+  - role: PostDoc
+    org: Susan Trumbore 实验室, 马普生物地球化学研究所
+    start: 2015-10-01
+    end: 2017-04-30
+  - role: PostDoc
+    org: Ian Anderson 实验室, 西悉尼大学霍克斯伯里研究所
+    start: 2017-10-01
+    end: 2020-10-01
+  - role: PostDoc
+    org: Jeff Powell 实验室, 西悉尼大学霍克斯伯里研究所
+    start: 2020-10-01
+    end: 2023-01-01
+
+skills:
+  - name: 编程与数据分析
+    items:
+      - label: R
+        level: 5
+      - label: Python
+        level: 4
+      - label: 统计学
+        level: 4
+
+languages:
+  - name: 中文
+    level: 5
+    label: 母语
+  - name: 英语
+    level: 4
+    label: 熟练
+
+awards:
+  - title: 海外人才引才专项
+    awarder: 中华人民共和国教育部
+    date: "2025-01-01"
+    icon: hero/trophy

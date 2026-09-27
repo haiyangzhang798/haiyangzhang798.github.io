@@ -1,0 +1,41 @@
+---
+title: "Hello R Markdown"
+date: 2026-09-27
+summary: "An example post written in R Markdown with blogdown: code, output and figures all rendered into the page."
+authors:
+  - me
+tags:
+  - R
+  - blogdown
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE, fig.align = "center")
+```
+
+This post is written in **R Markdown** (`.Rmarkdown`). When you save or knit it in RStudio,
+blogdown runs the R code and writes the result to `index.markdown`, which Hugo then turns into this page.
+
+## Summarise a data set
+
+```{r summary}
+summary(cars)
+fit <- lm(dist ~ speed, data = cars)
+coef(fit)
+```
+
+## Include a plot
+
+```{r scatter, fig.cap = "Stopping distance vs. speed", fig.width = 6, fig.height = 4}
+plot(cars, pch = 19, col = "steelblue",
+     xlab = "Speed (mph)", ylab = "Stopping distance (ft)")
+abline(fit, col = "firebrick", lwd = 2)
+```
+
+## Math
+
+Inline math like $y = \beta_0 + \beta_1 x + \varepsilon$ works, and so do display equations:
+
+$$
+\hat{\beta}_1 = \frac{\sum_i (x_i - \bar{x})(y_i - \bar{y})}{\sum_i (x_i - \bar{x})^2}
+$$

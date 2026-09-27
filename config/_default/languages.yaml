@@ -1,0 +1,44 @@
+# 中英双语配置
+# 英文内容放在 content/en/，中文内容放在 content/zh/
+# 同名文件会自动互相关联，页面上的语言切换按钮会跳到对应的翻译页。
+# Docs: https://docs.hugoblox.com/reference/language/
+
+en:
+  label: English
+  locale: en-us
+  contentDir: content/en
+  weight: 1
+
+zh:
+  label: 中文
+  locale: zh-Hans
+  contentDir: content/zh
+  weight: 2
+  params:
+    hugoblox:
+      identity:
+        name: "你的名字"   # TODO: 中文姓名
+        description: "你的名字的个人学术主页"
+      locale:
+        date_format: "2006年1月2日"
+        address_format: zh
+  menus:
+    main:
+      - name: 简介
+        url: /zh/
+        weight: 10
+      - name: 论文
+        url: /zh/#papers
+        weight: 11
+      - name: 报告
+        url: /zh/#talks
+        weight: 12
+      - name: 动态
+        url: /zh/#news
+        weight: 13
+      - name: 经历
+        url: /zh/experience/
+        weight: 20
+      - name: 博客
+        url: /zh/post/
+        weight: 30

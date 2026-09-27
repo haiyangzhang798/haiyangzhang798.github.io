@@ -1,0 +1,96 @@
+# ════════════════════════════════════════════════════════════════
+# 个人资料（英文版）  Profile — English
+# 中文版在 data/zh/authors/me.yaml，只需写需要翻译的字段，其余沿用本文件。
+# 头像：替换 assets/media/authors/me.png
+# ════════════════════════════════════════════════════════════════
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Haiyang Zhang
+  given: Haiyang
+  family: Zhang
+  alternate: 'Ocean'
+  pronunciation: ''
+  pronouns: ''
+postnominals: []
+role: Researcher
+bio: |
+  I am a Professor in the Department of Life Science at Hebei University.
+  My research focuses on grassland ecosystem, focusing on arbuscular mycorrhizal fungi and rhizobium to understand plant-symbiotic interaction and its effect on global carbon and nitrogen cycling.
+
+affiliations:
+  - name: Hebei University
+    url: https://smkxxy.hbu.cn/info/1099/4203.htm
+
+links:
+  - icon: at-symbol
+    url: zhanghaiyang798@gmail.com
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/haiyangzhang798
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=Dv3rn0YAAAAJ&hl=en
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0001-7951-0502
+  - icon: academicons/researchgate
+    url: https://www.researchgate.net/profile/Haiyang-Zhang-19
+
+interests:
+  - arbuscular mycorrhizal fungi
+  - microbial traits
+  - Ecosystem carbon and nutrients cycling
+
+education:
+  - degree: PhD in Chinese Academy of Sciences 
+    institution: Institute of Applied Ecology
+    start: 2009-09-01
+    summary: |
+      Advisor: Prof. Xingguo Han
+
+  - degree: BS in Shandong Agriculture University 
+    institution: College of Forestry
+    start: 2005-09-01
+    end: 2009-06-30
+
+experience:
+  - role: Visiting Student
+    org: Susan Trumbore Lab, Max Planck Institute for Biogeochemistry
+    start: 2012-07-01
+    end: 2014-07-01
+  - role: PostDoc
+    org: Susan Trumbore Lab, Max Planck Institute for Biogeochemistry
+    start: 2015-10-01
+    end: 2017-04-30
+  - role: PostDoc
+    org: Ian Anderson Lab, HIE, Western Sydney University
+    start: 2017-10-01
+    end: 2020-10-01
+  - role: PostDoc
+    org: Jeff Powell Lab, HIE, Western Sydney University
+    start: 2020-10-01
+    end: 2023-01-01
+
+skills:
+  - name: Programming & Data
+    items:
+      - label: R
+        level: 5
+      - label: Python
+        level: 4
+      - label: Statistics
+        level: 4
+
+languages:
+  - name: Chinese
+    level: 5
+    label: Native
+  - name: English
+    level: 4
+    label: Fluent
+
+awards:
+  - title: Overseas Talent Recruitment Program
+    awarder: Ministry of Education of China
+    date: "2025-01-01"
+    icon: hero/trophy
