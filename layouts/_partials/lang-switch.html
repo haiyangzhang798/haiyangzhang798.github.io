@@ -1,0 +1,6 @@
+{{ $target := "" }}
+{{ range .Translations }}{{ $target = .RelPermalink }}{{ end }}
+{{ if not $target }}
+  {{ range site.Languages }}{{ if ne .Lang site.Language.Lang }}{{ $target = (cond (eq .Lang "en") "/" (printf "/%s/" .Lang)) }}{{ end }}{{ end }}
+{{ end }}
+<a class="lang" href="{{ $target }}" lang="{{ cond (eq site.Language.Lang "en") "zh" "en" }}">{{ i18n "switch_lang" }}</a>

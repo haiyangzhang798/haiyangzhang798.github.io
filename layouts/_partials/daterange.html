@@ -1,0 +1,8 @@
+{{- $s := .start | string -}}{{- $e := .end | string -}}
+{{- $s = index (split $s "-") 0 -}}
+{{- if $e -}}{{- $e = index (split $e "-") 0 -}}{{- end -}}
+{{- if .edu -}}
+  {{- if $e }}{{ $s }} – {{ $e }}{{ else }}{{ $s }} –{{ end -}}
+{{- else -}}
+  {{- if $e }}{{ $s }} – {{ $e }}{{ else }}{{ $s }} – {{ i18n "present" }}{{ end -}}
+{{- end -}}

@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="container narrow">
+  <div class="contact-grid">
+    <div class="prose">{{ .Content }}</div>
+    <div class="contact-card">
+      <h3>{{ i18n "email" }}</h3>
+      <p><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></p>
+      <h3>{{ i18n "links" }}</h3>
+      <ul class="link-list">{{ range site.Params.links }}<li><a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a></li>{{ end }}</ul>
+    </div>
+  </div>
+</div>
+{{ end }}

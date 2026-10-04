@@ -1,0 +1,10 @@
+{{ $img := .Params.banner | default site.Params.banner }}
+{{ $title := .Params.banner_title | default .Title }}
+{{ if .IsHome }}{{ $title = i18n "about" }}{{ end }}
+{{ if and .IsPage (eq .Section "post") }}{{ $title = .Title }}{{ end }}
+<section class="banner{{ if .IsHome }} banner-home{{ end }}" style="background-image:url('{{ $img | relURL }}')">
+  <div class="banner-shade"></div>
+  <div class="container banner-inner">
+    <h1 class="banner-title{{ if gt (len $title) 28 }} long{{ end }}">{{ $title }}</h1>
+  </div>
+</section>

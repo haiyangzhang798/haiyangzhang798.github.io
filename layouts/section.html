@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="container narrow">
+  {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+  <ul class="post-list">
+    {{ range .Pages.ByDate.Reverse }}
+    <li class="post-item">
+      <a class="post-link" href="{{ .RelPermalink }}">
+        {{ with .Resources.GetMatch "featured.*" }}{{ $t := .Fill "320x200 Center webp" }}<img src="{{ $t.RelPermalink }}" alt="" loading="lazy">{{ end }}
+        <div>
+          <h2>{{ .Title }}</h2>
+          <p class="meta">{{ .Date | time.Format ":date_long" }} · {{ .ReadingTime }} {{ i18n "min_read" }}</p>
+          <p>{{ .Summary | plainify | truncate 180 }}</p>
+        </div>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}

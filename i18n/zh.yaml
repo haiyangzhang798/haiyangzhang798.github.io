@@ -1,0 +1,20 @@
+about: 关于我
+cv: 简历
+find_more: '更多信息：'
+education: 教育经历
+experience: 工作经历
+awards: 荣誉与奖励
+skills: 技能
+languages: 语言
+present: 至今
+read_more: 阅读全文
+all_pubs: '完整列表见'
+featured_pubs: 代表性论文
+pub_count: '共 {{ .Count }} 篇同行评审论文'
+email: 邮箱
+address: 地址
+links: 学术主页
+min_read: 分钟阅读
+recent_posts: 最新文章
+updated: 最近更新
+switch_lang: English

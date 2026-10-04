@@ -1,65 +1,30 @@
-# Configuration of Hugo
-# Guide: https://docs.hugoblox.com/tutorial/
-# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
-
-# Website name (set in params.yaml under hugoblox.branding.name)
-title: ''
-# Website URL
+# 网站基础配置 / Site configuration
 baseURL: 'https://haiyangzhang-lab.com/'
-
-############################
-## LANGUAGE
-############################
-
+title: 'Haiyang Zhang'
 defaultContentLanguage: en
+defaultContentLanguageInSubdir: false   # 英文在 /，中文在 /zh/
 hasCJKLanguage: true
-defaultContentLanguageInSubdir: false  # 英文在 /，中文在 /zh/
-removePathAccents: true
-
-############################
-## PAGE OPTIONS
-############################
-
-cascade:
-  - target:
-      path: /slides/**
-      kind: page
-    outputs: [HTML, present]
-
-############################
-## ADVANCED
-############################
-
-build:
-  writeStats: true
-enableGitInfo: false
-summaryLength: 30
-pagination:
-  pagerSize: 10
-enableEmoji: true
 enableRobotsTXT: true
-footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
-disableAliases: true
+summaryLength: 40
+# blogdown：Hugo 忽略 R Markdown 源文件，只读取 knit 生成的 .html / .markdown
+ignoreFiles: ['\.Rmd$', '\.Rmarkdown$', '_cache$', '\.knit\.md$', '\.utf8\.md$']
+markup:
+  goldmark:
+    renderer:
+      unsafe: true          # 允许在 Markdown 中写 HTML
+    extensions:
+      passthrough:          # 数学公式 $...$ / $$...$$ 原样保留给 KaTeX
+        enable: true
+        delimiters:
+          block: [['$$', '$$'], ['\[', '\]']]
+          inline: [['$', '$'], ['\(', '\)']]
+  highlight:
+    noClasses: true
+    style: github
+taxonomies: {}
 outputs:
-  home: [HTML, RSS, headers, redirects, backlinks]
+  home: [HTML, RSS]
   section: [HTML, RSS]
 imaging:
+  quality: 85
   resampleFilter: lanczos
-  quality: 90
-  anchor: smart
-  hint: picture
-timeout: 600000
-taxonomies:
-  author: authors
-  tag: tags
-  publication_type: publication_types
-markup:
-  _merge: deep
-  highlight:
-    lineNos: false
-security:
-  _merge: deep
-sitemap:
-  _merge: deep

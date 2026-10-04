@@ -1,96 +1,69 @@
 # ════════════════════════════════════════════════════════════════
-# 个人资料（英文版）  Profile — English
-# 中文版在 data/zh/authors/me.yaml，只需写需要翻译的字段，其余沿用本文件。
-# 头像：assets/media/authors/me.jpg（文件名必须是 me，对应 slug: me）
+# 个人资料 — 英文版（中文版：data/zh/authors/me.yaml，两份分别维护）
+# 照片：assets/media/authors/me.jpg
+# 日期写成 YYYY 或 YYYY-MM；end 留空表示"至今"
 # ════════════════════════════════════════════════════════════════
-schema: hugoblox/author/v1
-slug: me
-is_owner: true
-name:
-  display: Haiyang Zhang
-  given: Haiyang
-  family: Zhang
-  alternate: 'Ocean'
-  pronunciation: ''
-  pronouns: ''
-postnominals: []
-role: Researcher
+name: Haiyang Zhang
+alt_name: 张海洋
+role: Professor, PhD Supervisor
+affiliation:
+  name: School of Life Sciences, Hebei University
+  url: https://smkxxy.hbu.cn/info/1099/4203.htm
+
+# 首页简介（支持 Markdown，可写多段）
 bio: |
-  I am a Professor in the Department of Life Science at Hebei University.
-  My research focuses on grassland ecosystem, focusing on arbuscular mycorrhizal fungi and rhizobium to understand plant-symbiotic interaction and its effect on global carbon and nitrogen cycling.
+  Haiyang studies the hidden half of grassland ecosystems. He is interested in how
+  **arbuscular mycorrhizal fungi**, rhizobia and other plant symbionts shape plant
+  nutrition, community assembly and the cycling of **carbon and nitrogen** under global
+  change — nitrogen deposition, drought and warming.
 
-affiliations:
-  - name: Hebei University
-    url: https://smkxxy.hbu.cn/info/1099/4203.htm
+  His work combines long-term field experiments in the Inner Mongolia steppe, glasshouse
+  experiments, isotope tracing and trait-based approaches such as genome size to link
+  microbial traits to ecosystem functions.
 
-links:
-  - icon: at-symbol
-    url: mailto:zhanghaiyang798@gmail.com
-    label: E-mail Me
-  - icon: brands/github
-    url: https://github.com/haiyangzhang798
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=Dv3rn0YAAAAJ&hl=en
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0001-7951-0502
-  - icon: academicons/researchgate
-    url: https://www.researchgate.net/profile/Haiyang-Zhang-19
+  He is now a Professor at the School of Life Sciences, Hebei University, after research
+  positions at the Max Planck Institute for Biogeochemistry and Western Sydney University.
 
 interests:
-  - arbuscular mycorrhizal fungi
-  - microbial traits
-  - Ecosystem carbon and nutrients cycling
+  - Arbuscular mycorrhizal fungi
+  - Plant–microbe symbiosis
+  - Microbial & plant functional traits
+  - Grassland carbon and nutrient cycling
 
 education:
-  - degree: PhD in Chinese Academy of Sciences 
-    institution: Institute of Applied Ecology
-    start: 2009-09-01
-    summary: |
-      Advisor: Prof. Xingguo Han
-
-  - degree: BS in Shandong Agriculture University 
-    institution: College of Forestry
-    start: 2005-09-01
-    end: 2009-06-30
+  - degree: PhD in Ecology
+    institution: Institute of Applied Ecology, Chinese Academy of Sciences
+    start: 2009
+    end: ''            # TODO: 填写毕业年份
+    note: 'Advisor: Prof. Xingguo Han'
+  - degree: BSc in Soil and Water Conservation
+    institution: College of Forestry, Shandong Agricultural University
+    start: 2005
+    end: 2009
 
 experience:
-  - role: Visiting Student
+  - role: Professor
+    org: School of Life Sciences, Hebei University
+    start: 2023        # TODO: 请确认起始时间
+    end: ''
+  - role: Postdoctoral Fellow
+    org: Jeff Powell Lab, Hawkesbury Institute for the Environment, Western Sydney University
+    start: 2020-10
+    end: 2023-01
+  - role: Postdoctoral Fellow
+    org: Ian Anderson Lab, Hawkesbury Institute for the Environment, Western Sydney University
+    start: 2017-10
+    end: 2020-10
+  - role: Postdoctoral Researcher
     org: Susan Trumbore Lab, Max Planck Institute for Biogeochemistry
-    start: 2012-07-01
-    end: 2014-07-01
-  - role: PostDoc
+    start: 2015-10
+    end: 2017-04
+  - role: Visiting PhD Student
     org: Susan Trumbore Lab, Max Planck Institute for Biogeochemistry
-    start: 2015-10-01
-    end: 2017-04-30
-  - role: PostDoc
-    org: Ian Anderson Lab, HIE, Western Sydney University
-    start: 2017-10-01
-    end: 2020-10-01
-  - role: PostDoc
-    org: Jeff Powell Lab, HIE, Western Sydney University
-    start: 2020-10-01
-    end: 2023-01-01
-
-skills:
-  - name: Programming & Data
-    items:
-      - label: R
-        level: 5
-      - label: Python
-        level: 4
-      - label: Statistics
-        level: 4
-
-languages:
-  - name: Chinese
-    level: 5
-    label: Native
-  - name: English
-    level: 4
-    label: Fluent
+    start: 2012-07
+    end: 2014-07
 
 awards:
   - title: Overseas Talent Recruitment Program
     awarder: Ministry of Education of China
-    date: "2025-01-01"
-    icon: hero/trophy
+    year: 2025

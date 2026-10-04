@@ -1,8 +1,6 @@
+# 只供 GitHub Actions 读取：指定构建用的 Hugo 版本和部署目标
+# (文件名沿用旧模板，工作流 .github/workflows/build.yml 会读取它)
 build:
   hugo_version: '0.161.1'
 deploy:
-  # Deployment target: github-pages, netlify, vercel, cloudflare, or none
   host: 'github-pages'
-template:
-  id: "academic-cv"
-  name: "Academic CV"

@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{ $me := partial "me.html" . }}
+<div class="container">
+  <div class="about-grid">
+    <div class="about-left">
+      <img class="wordcloud" src="{{ site.Params.wordcloud | relURL }}" alt="Word cloud of research topics" loading="eager">
+    </div>
+    <div class="about-right">
+      {{ with resources.Get "media/authors/me.jpg" }}
+        {{ $p := .Fill "720x720 Top webp q85" }}
+        <img class="portrait" src="{{ $p.RelPermalink }}" width="{{ $p.Width }}" height="{{ $p.Height }}" alt="{{ $me.name }}">
+      {{ end }}
+      <div class="prose bio">
+        {{ $me.bio | markdownify }}
+        {{ .Content }}
+        <p>{{ i18n "find_more" }}{{ with site.Params.cv }} <a href="{{ . | relURL }}">{{ i18n "cv" }}</a>{{ end }}</p>
+      </div>
+      <ul class="link-list">
+        {{ range site.Params.links }}<li><a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a></li>{{ end }}
+        <li><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+{{ end }}

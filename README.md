@@ -1,75 +1,55 @@
-# 个人学术主页（blogdown + HugoBlox Academic CV，中英双语）
+# 张海洋 个人学术主页（blogdown + 自定义 Hugo 主题，中英双语）
 
-线上地址：`https://haiyangzhang798.github.io/`（英文在 `/`，中文在 `/zh/`）
+网址：https://haiyangzhang-lab.com （英文在 `/`，中文在 `/zh/`）
 
-## 一、需要修改的地方
+风格参考 Google Sites 经典布局：顶部大幅横幅 + 白框标题、透明导航栏、首页左图右文。
+主题完全写在本项目的 `layouts/` 和 `assets/css/main.css` 里，**不依赖 Go、Node 或任何外部 CDN**，
+字体和公式渲染（KaTeX）都已放在本地，国内访问更快。
 
-| 内容 | 文件 |
+## 改内容去哪里
+
+| 想改的内容 | 文件 |
 |---|---|
-| 网址 | `config/_default/hugo.yaml` → `baseURL` |
-| 网站名称（英文 / 中文） | `config/_default/params.yaml` → `identity.name`；`config/_default/languages.yaml` → `zh.params` |
-| 个人资料、教育、经历、奖项、链接（英文） | `data/authors/me.yaml` |
-| 个人资料（中文，只写需要翻译的字段） | `data/zh/authors/me.yaml` |
-| 头像 | 替换 `assets/media/authors/me.png` |
-| 简历 PDF | 放到 `static/uploads/resume.pdf` |
-| 主页各板块 | `content/en/_index.md`、`content/zh/_index.md` |
-| 导航菜单 | `config/_default/menus.yaml`（英文）、`languages.yaml`（中文） |
-| 论文 | `content/{en,zh}/publications/<文件夹>/index.md` |
-| 学术报告 | `content/{en,zh}/events/<文件夹>/index.md` |
-| 博客 | `content/{en,zh}/post/<文件夹>/index.Rmarkdown` |
+| 顶部横幅图 | 替换 `static/images/banner.jpg`（建议 2400×800 左右的横向风景照） |
+| 首页词云 | 替换 `static/images/wordcloud.jpg` |
+| 个人照片 | 替换 `assets/media/authors/me.jpg` |
+| 姓名、简介、教育/工作经历、奖项（英文） | `data/authors/me.yaml` |
+| 同上（中文） | `data/zh/authors/me.yaml` |
+| 论文列表（中英文共用） | `data/publications.yaml`（`featured: true` 的会显示在 Research 页） |
+| 学术链接、邮箱、简历 PDF | `config/_default/params.yaml` |
+| 研究方向页 | `content/en/research.md`、`content/zh/research.md` |
+| 课题组页（成员照片放 `static/images/people/`） | `content/en/group.md`、`content/zh/group.md` |
+| 联系方式页 | `content/en/contact.md`、`content/zh/contact.md` |
+| 导航菜单 | `config/_default/menus.en.yaml`、`menus.zh.yaml` |
+| 颜色、字体、版式 | `assets/css/main.css` 顶部的 `:root` 变量 |
 
-中英文版本只要**文件夹名相同**，页面右上角的语言切换就会自动互相跳转。
+单个页面想用不同横幅图：在该页 front matter 里加 `banner: images/xxx.jpg`。
 
-## 二、本地预览（RStudio）
+## 本地预览（RStudio）
 
-第一次使用需要安装（Hugo Modules 需要 Go，主题的 Tailwind CSS 需要 Node）：
+只需要 Hugo，不再需要 Go / Node / pnpm：
+
+```r
+blogdown::install_hugo("0.161.1")   # 首次
+blogdown::serve_site()              # 预览，保存即刷新
+blogdown::stop_server()
+```
+
+## 写博客（R Markdown）
+
+```r
+blogdown::new_post("文章标题", subdir = "post", ext = ".Rmarkdown")
+```
+
+新文章默认在 `content/en/post/`；中文文章把文件夹移到 `content/zh/post/`。
+保存/Knit 后，把生成的 `index.markdown` 和 `index_files/` 一起提交（GitHub 上的构建不运行 R）。
+
+## 发布
 
 ```bash
-brew install go node pnpm
-cd ~/Documents/academic-website
-pnpm install
+git add -A
+git commit -m "更新网站"
+git push
 ```
 
-```r
-install.packages("blogdown")
-blogdown::install_hugo("0.161.1")   # 与 hugoblox.yaml 中的版本一致
-```
-
-之后双击 `academic-website.Rproj` 打开项目：
-
-```r
-blogdown::serve_site()      # 实时预览，保存即刷新
-blogdown::stop_server()     # 停止预览
-blogdown::new_post("My new post", subdir = "post")   # 新建英文文章
-blogdown::check_site()      # 检查配置问题
-```
-
-> 中文文章：新建后把文件夹移到 `content/zh/post/`，或直接在 `new_post()` 后手动调整路径。
-> **注意**：GitHub Actions 不运行 R。`.Rmarkdown` 需要在本地保存/Knit，生成的 `index.markdown` 和 `index_files/` 要一起提交。
-
-> Hugo 0.162.0 与当前主题有兼容问题（引文列表会报 `assignment to entry in nil map`），请先使用 0.161.1。
-
-## 三、发布到 GitHub Pages
-
-1. 在 GitHub 新建**公开**仓库，名字必须是 `haiyangzhang798.github.io`
-2. 推送：
-   ```bash
-   git init -b main
-   git add .
-   git commit -m "Initial site"
-   git remote add origin https://github.com/haiyangzhang798/haiyangzhang798.github.io.git
-   git push -u origin main
-   ```
-3. 仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**
-4. 等 Actions 里的 “Deploy website to GitHub Pages” 跑完（约 2 分钟），访问 `https://haiyangzhang798.github.io/`
-
-以后每次 `git push` 都会自动重新构建发布。
-
-## 四、用 BibTeX 批量导入论文（可选）
-
-把导出的 `publications.bib` 放在仓库根目录并推送，Actions 会自动把它转换成 `content/en/publications/` 下的论文页面并提交一个 PR，合并即可。中文版如需要，可把对应文件夹复制到 `content/zh/publications/`。
-
-## 参考
-
-- blogdown 文档：https://bookdown.org/yihui/blogdown/
-- HugoBlox 文档：https://docs.hugoblox.com/
+推送后 GitHub Actions 自动构建发布（仓库 Settings → Pages → Source 需为 **GitHub Actions**）。

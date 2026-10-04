@@ -1,0 +1,20 @@
+about: About me
+cv: C.V.
+find_more: 'Find out more via:'
+education: Education
+experience: Experience
+awards: Awards & Honours
+skills: Skills
+languages: Languages
+present: present
+read_more: Read more
+all_pubs: 'Full list on'
+featured_pubs: Selected publications
+pub_count: '{{ .Count }} peer-reviewed papers'
+email: Email
+address: Address
+links: Online
+min_read: min read
+recent_posts: Recent posts
+updated: Last updated
+switch_lang: 中文

@@ -1,0 +1,16 @@
+{{ define "main" }}
+{{ $pubs := sort hugo.Data.publications "year" "desc" }}
+<div class="container narrow">
+  <div class="prose">
+    {{ .Content }}
+    <p class="pub-summary">{{ i18n "pub_count" (dict "Count" (len $pubs)) }} · {{ i18n "all_pubs" }} <a href="{{ site.Params.scholar }}" target="_blank" rel="noopener">Google Scholar</a> / <a href="https://orcid.org/{{ site.Params.orcid }}" target="_blank" rel="noopener">ORCID</a></p>
+  </div>
+  {{ $years := slice }}{{ range $pubs }}{{ $years = $years | append .year }}{{ end }}
+  {{ range ($years | uniq) }}
+  <section class="pub-year-group">
+    <h2 class="year">{{ . }}</h2>
+    <ul class="pub-list">{{ range where $pubs "year" . }}{{ partial "pub-item.html" . }}{{ end }}</ul>
+  </section>
+  {{ end }}
+</div>
+{{ end }}

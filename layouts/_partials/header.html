@@ -1,0 +1,22 @@
+{{ $me := partial "me.html" . }}
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a class="brand" href="{{ "/" | relLangURL }}">
+      {{ with resources.Get "media/authors/me.jpg" }}{{ $a := .Fill "72x72 Top" }}<img class="brand-avatar" src="{{ $a.RelPermalink }}" alt="" width="36" height="36">{{ end }}
+      <span>{{ $me.name }}</span>
+    </a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Menu">
+    <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+    <nav class="nav">
+      {{ $cur := . }}
+      {{ range site.Menus.main }}
+        {{ $active := or ($cur.IsMenuCurrent "main" .) ($cur.HasMenuCurrent "main" .) (and .Page (eq .Page.RelPermalink $cur.RelPermalink)) (and .Page (ne .Page.Kind "home") (in $cur.RelPermalink .Page.RelPermalink)) }}
+        <a href="{{ .URL }}"{{ if $active }} class="active" aria-current="page"{{ end }}>{{ .Name }}</a>
+      {{ end }}
+      {{ partial "lang-switch.html" . }}
+    </nav>
+  </div>
+</header>
+<script>
+  (function(){var h=document.querySelector('.site-header');function f(){h.classList.toggle('scrolled',window.scrollY>40)}f();window.addEventListener('scroll',f,{passive:true})})();
+</script>

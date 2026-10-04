@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="container narrow">
+  <p class="meta post-meta">{{ .Date | time.Format ":date_long" }} · {{ .ReadingTime }} {{ i18n "min_read" }}{{ with .Params.tags }} · {{ delimit . ", " }}{{ end }}</p>
+  <article class="prose">
+    {{ .Content }}
+  </article>
+  <p class="back"><a href="{{ .Parent.RelPermalink }}">← {{ .Parent.Title }}</a></p>
+</div>
+{{ end }}

@@ -1,0 +1,8 @@
+main:
+  - {name: About me, pageRef: /, weight: 1}
+  - {name: Research, pageRef: /research, weight: 2}
+  - {name: Publications, pageRef: /publications, weight: 3}
+  - {name: Group, pageRef: /group, weight: 4}
+  - {name: Achievements, pageRef: /achievements, weight: 5}
+  - {name: Blog, pageRef: /post, weight: 6}
+  - {name: Contact, pageRef: /contact, weight: 7}

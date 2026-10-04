@@ -1,0 +1,12 @@
+{{ define "main" }}
+<div class="container narrow">
+  <article class="prose research">{{ .Content }}</article>
+  {{ $feat := where hugo.Data.publications "featured" true }}
+  {{ with $feat }}
+  <section class="pub-year-group">
+    <h2 class="year">{{ i18n "featured_pubs" }}</h2>
+    <ul class="pub-list">{{ range sort . "year" "desc" }}{{ partial "pub-item.html" . }}{{ end }}</ul>
+  </section>
+  {{ end }}
+</div>
+{{ end }}

@@ -1,89 +1,61 @@
 # ════════════════════════════════════════════════════════════════
-# 个人资料（中文版）
-# 这里的字段会覆盖 data/authors/me.yaml 中的同名字段；没写的字段沿用英文版。
+# 个人资料 — 中文版（英文版：data/authors/me.yaml）
+# 日期写成 YYYY 或 YYYY-MM；end 留空表示"至今"
 # ════════════════════════════════════════════════════════════════
-name:
-  display: 张海洋
-  given: 海洋
-  family: 张
-  alternate: 'Ocean'
-role: 教授 博导
+name: 张海洋
+alt_name: Haiyang Zhang
+role: 教授、博士生导师
+affiliation:
+  name: 河北大学生命科学学院
+  url: https://smkxxy.hbu.cn/info/1099/4203.htm
+
 bio: |
-  我是河北大学生命科学学院教授，研究方向为微生物生态学和菌根生态学，
-  主要聚焦丛枝菌根真菌与根瘤菌等方向研究共生微生物介导的草地生态系统碳和养分循环。
+  张海洋，河北大学生命科学学院教授、博士生导师，研究方向为微生物生态学与菌根生态学。
 
-affiliations:
-  - name: 河北大学
-    url: https://smkxxy.hbu.cn/info/1099/4203.htm
+  主要关注**丛枝菌根真菌**、根瘤菌等植物共生微生物如何影响植物养分获取、群落构建，以及氮沉降、干旱和增温等全球变化背景下草地生态系统的**碳氮循环**。研究结合内蒙古草原长期野外控制实验、温室实验、同位素示踪以及基因组大小等功能性状方法，连接微生物性状与生态系统功能。
 
-links:
-  - icon: at-symbol
-    url: mailto:zhanghaiyang798@gmail.com
-    label: 发邮件给我
-  - icon: brands/github
-    url: https://github.com/haiyangzhang798
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=Dv3rn0YAAAAJ&hl=en
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0001-7951-0502
-  - icon: academicons/researchgate
-    url: https://www.researchgate.net/profile/Haiyang-Zhang-19
+  加入河北大学之前，曾在德国马普生物地球化学研究所和澳大利亚西悉尼大学从事研究工作。
 
 interests:
-  - 菌根真菌
-  - 微生物功能性状
-  - 生态系统碳和养分循环
+  - 丛枝菌根真菌
+  - 植物—微生物共生
+  - 微生物与植物功能性状
+  - 草地生态系统碳和养分循环
 
 education:
-  - degree: 生态系统生态学 专业 博士
-    institution: 中科院沈阳生态学所
-    start: 2009-09-01
-    summary: |
-      导师：韩兴国 教授
-
-  - degree: 水土保持 专业 学士
-    institution: 山东农业大学
-    start: 2005-09-01
-    end: 2009-06-30
+  - degree: 生态学 博士
+    institution: 中国科学院沈阳应用生态研究所
+    start: 2009
+    end: ''            # TODO: 填写毕业年份
+    note: 导师：韩兴国 研究员
+  - degree: 水土保持 学士
+    institution: 山东农业大学 林学院
+    start: 2005
+    end: 2009
 
 experience:
-  - role: 访问学生
-    org: Susan Trumbore 实验室, 马普生物地球化学研究所
-    start: 2012-07-01
-    end: 2014-07-01
-  - role: PostDoc
-    org: Susan Trumbore 实验室, 马普生物地球化学研究所
-    start: 2015-10-01
-    end: 2017-04-30
-  - role: PostDoc
-    org: Ian Anderson 实验室, 西悉尼大学霍克斯伯里研究所
-    start: 2017-10-01
-    end: 2020-10-01
-  - role: PostDoc
-    org: Jeff Powell 实验室, 西悉尼大学霍克斯伯里研究所
-    start: 2020-10-01
-    end: 2023-01-01
-
-skills:
-  - name: 编程与数据分析
-    items:
-      - label: R
-        level: 5
-      - label: Python
-        level: 4
-      - label: 统计学
-        level: 4
-
-languages:
-  - name: 中文
-    level: 5
-    label: 母语
-  - name: 英语
-    level: 4
-    label: 熟练
+  - role: 教授
+    org: 河北大学生命科学学院
+    start: 2023        # TODO: 请确认起始时间
+    end: ''
+  - role: 博士后
+    org: 西悉尼大学霍克斯伯里环境研究所，Jeff Powell 实验室
+    start: 2020-10
+    end: 2023-01
+  - role: 博士后
+    org: 西悉尼大学霍克斯伯里环境研究所，Ian Anderson 实验室
+    start: 2017-10
+    end: 2020-10
+  - role: 博士后
+    org: 德国马普生物地球化学研究所，Susan Trumbore 实验室
+    start: 2015-10
+    end: 2017-04
+  - role: 联合培养博士生
+    org: 德国马普生物地球化学研究所，Susan Trumbore 实验室
+    start: 2012-07
+    end: 2014-07
 
 awards:
   - title: 海外人才引才专项
     awarder: 中华人民共和国教育部
-    date: "2025-01-01"
-    icon: hero/trophy
+    year: 2025
