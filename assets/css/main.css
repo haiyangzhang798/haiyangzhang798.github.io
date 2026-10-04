@@ -194,3 +194,19 @@ a:hover{color:var(--accent)}
 .roles li{position:relative;padding-left:18px;margin:.35em 0}
 .roles li::before{content:"";position:absolute;left:2px;top:.72em;width:7px;height:7px;border-radius:50%;background:var(--accent)}
 .roles-intro{margin-bottom:.3em!important}
+
+/* projects */
+.narrow-prose{max-width:836px;margin:0 auto 2em}
+.project-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:28px}
+.project-card{display:flex;flex-direction:column;text-decoration:none;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:#fff;transition:box-shadow .2s ease,transform .2s ease}
+.project-card:hover{box-shadow:0 6px 22px rgba(0,0,0,.08);transform:translateY(-2px);color:inherit}
+.project-card img,.project-ph{width:100%;aspect-ratio:16/9;object-fit:cover;background:var(--bg-soft)}
+.project-body{padding:18px 20px 22px}
+.project-body h2{font-family:var(--font-head);font-weight:700;font-size:19px;line-height:1.35;margin:.3em 0 .2em}
+.project-card:hover h2{color:var(--accent)}
+.project-body p{margin:.3em 0 0;font-size:15px;color:var(--ink-2)}
+.tag{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.3px;color:var(--accent);background:#eef3ea;border-radius:999px;padding:1px 10px}
+.project-facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px 24px;margin:0 0 2em;padding:18px 22px;background:var(--bg-soft);border-radius:6px}
+.project-facts dt{font-family:var(--font-head);font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.6px;color:var(--muted)}
+.project-facts dd{margin:2px 0 0;font-size:15px}
+.prose .caption{text-align:center;font-size:14px;color:var(--muted);margin-top:-.4em}

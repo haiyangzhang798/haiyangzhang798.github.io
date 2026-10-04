@@ -3,6 +3,7 @@ main:
   - {name: 研究方向, pageRef: /research, weight: 2}
   - {name: 论文发表, pageRef: /publications, weight: 3}
   - {name: 课题组, pageRef: /group, weight: 4}
-  - {name: 经历与荣誉, pageRef: /achievements, weight: 5}
-  - {name: 博客, pageRef: /post, weight: 6}
-  - {name: 联系方式, pageRef: /contact, weight: 7}
+  - {name: 科研项目, pageRef: /project, weight: 5}
+  - {name: 经历与荣誉, pageRef: /achievements, weight: 6}
+  - {name: 博客, pageRef: /post, weight: 7}
+  - {name: 联系方式, pageRef: /contact, weight: 8}

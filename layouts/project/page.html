@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="container narrow">
+  <dl class="project-facts">
+    {{ with .Params.period }}<div><dt>{{ i18n "proj_period" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+    {{ with .Params.funder }}<div><dt>{{ i18n "proj_funder" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+    {{ with .Params.role }}<div><dt>{{ i18n "proj_role" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+    {{ with .Params.status }}<div><dt>{{ i18n "proj_status" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+  </dl>
+  <article class="prose">
+    {{ .Content }}
+  </article>
+  <p class="back"><a href="{{ .Parent.RelPermalink }}">← {{ .Parent.Title }}</a></p>
+</div>
+{{ end }}

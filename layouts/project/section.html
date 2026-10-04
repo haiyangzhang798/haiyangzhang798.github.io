@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="container">
+  {{ with .Content }}<div class="prose narrow-prose">{{ . }}</div>{{ end }}
+  <div class="project-grid">
+    {{ range .Pages.ByWeight }}
+    <a class="project-card" href="{{ .RelPermalink }}">
+      {{ with .Resources.GetMatch "featured.*" }}{{ $t := .Fill "640x360 Center webp q85" }}<img src="{{ $t.RelPermalink }}" width="640" height="360" alt="" loading="lazy">{{ else }}<div class="project-ph"></div>{{ end }}
+      <div class="project-body">
+        {{ with .Params.status }}<span class="tag">{{ . }}</span>{{ end }}
+        <h2>{{ .Title }}</h2>
+        <p class="meta">{{ with .Params.period }}{{ . }}{{ end }}{{ with .Params.funder }} · {{ . }}{{ end }}</p>
+        <p>{{ .Summary | plainify | truncate 160 }}</p>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

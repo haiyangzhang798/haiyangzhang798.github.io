@@ -19,6 +19,7 @@
 | 学术链接、邮箱、简历 PDF | `config/_default/params.yaml` |
 | 研究方向页 | `content/en/research.md`、`content/zh/research.md` |
 | 课题组页（成员照片放 `static/images/people/`） | `content/en/group.md`、`content/zh/group.md` |
+| 科研项目（每个项目一个文件夹，内含 index.Rmarkdown） | `content/en/project/`、`content/zh/project/`，参考 `example-amf-nitrogen` |
 | 联系方式页 | `content/en/contact.md`、`content/zh/contact.md` |
 | 导航菜单 | `config/_default/menus.en.yaml`、`menus.zh.yaml` |
 | 颜色、字体、版式 | `assets/css/main.css` 顶部的 `:root` 变量 |
@@ -43,6 +44,15 @@ blogdown::new_post("文章标题", subdir = "post", ext = ".Rmarkdown")
 
 新文章默认在 `content/en/post/`；中文文章把文件夹移到 `content/zh/post/`。
 保存/Knit 后，把生成的 `index.markdown` 和 `index_files/` 一起提交（GitHub 上的构建不运行 R）。
+
+## 新建项目页
+
+```r
+blogdown::new_post("项目名称", subdir = "project", ext = ".Rmarkdown")
+```
+
+在 front matter 里填写 `period`（起止时间）、`funder`（资助来源）、`role`、`status`、`weight`（排序）；
+把一张 `featured.png`/`featured.jpg` 放进项目文件夹即作为列表页封面图。保存后提交生成的 `index.markdown`、`index_files/` 和图片。
 
 ## 发布
 
