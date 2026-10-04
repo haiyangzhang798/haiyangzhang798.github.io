@@ -6,7 +6,7 @@
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: ''
 # Website URL
-baseURL: 'https://haiyangzhang798.github.io/'  # 绑定自己的域名后改成 https://你的域名/
+baseURL: 'https://haiyangzhang-lab.com/'
 
 ############################
 ## LANGUAGE

@@ -1,7 +1,7 @@
 # ════════════════════════════════════════════════════════════════
 # 个人资料（英文版）  Profile — English
 # 中文版在 data/zh/authors/me.yaml，只需写需要翻译的字段，其余沿用本文件。
-# 头像：替换 assets/media/authors/me.png
+# 头像：assets/media/authors/me.jpg（文件名必须是 me，对应 slug: me）
 # ════════════════════════════════════════════════════════════════
 schema: hugoblox/author/v1
 slug: me
@@ -25,7 +25,7 @@ affiliations:
 
 links:
   - icon: at-symbol
-    url: zhanghaiyang798@gmail.com
+    url: mailto:zhanghaiyang798@gmail.com
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/haiyangzhang798

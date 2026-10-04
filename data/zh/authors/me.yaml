@@ -9,17 +9,17 @@ name:
   alternate: 'Ocean'
 role: 教授 博导
 bio: |
-  我是 河北 大学 生命科学学院 系的教授，研究方向为微生物生态学和菌根生态学，
+  我是河北大学生命科学学院教授，研究方向为微生物生态学和菌根生态学，
   主要聚焦丛枝菌根真菌与根瘤菌等方向研究共生微生物介导的草地生态系统碳和养分循环。
 
 affiliations:
   - name: 河北大学
-        url: https://smkxxy.hbu.cn/info/1099/4203.htm
+    url: https://smkxxy.hbu.cn/info/1099/4203.htm
 
 links:
   - icon: at-symbol
-    url: zhanghaiyang798@gmail.com
-    label: E-mail Me
+    url: mailto:zhanghaiyang798@gmail.com
+    label: 发邮件给我
   - icon: brands/github
     url: https://github.com/haiyangzhang798
   - icon: academicons/google-scholar
@@ -42,12 +42,12 @@ education:
       导师：韩兴国 教授
 
   - degree: 水土保持 专业 学士
-    institution: 山东农业 大学
+    institution: 山东农业大学
     start: 2005-09-01
     end: 2009-06-30
 
 experience:
-   - role: 访问学生
+  - role: 访问学生
     org: Susan Trumbore 实验室, 马普生物地球化学研究所
     start: 2012-07-01
     end: 2014-07-01
