@@ -12,6 +12,12 @@
       {{ end }}
       <div class="prose bio">
         {{ $me.bio | markdownify }}
+        {{ with $me.editorial }}
+        <p class="roles-intro">{{ i18n "editorial_now" }}</p>
+        <ul class="roles">
+          {{ range . }}<li>{{ if eq site.Language.Lang "zh" }}<a href="{{ .url }}" target="_blank" rel="noopener"><em>{{ .journal }}</em></a> {{ .role }}{{ else }}{{ .role }}, <a href="{{ .url }}" target="_blank" rel="noopener"><em>{{ .journal }}</em></a>{{ end }}</li>{{ end }}
+        </ul>
+        {{ end }}
         {{ .Content }}
         <p>{{ i18n "find_more" }}{{ with site.Params.cv }} <a href="{{ . | relURL }}">{{ i18n "cv" }}</a>{{ end }}</p>
       </div>

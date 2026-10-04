@@ -1,7 +1,8 @@
 {{- $p := . -}}
 {{- $authors := $p.authors -}}
+{{- $star := cond (eq $p.corresponding true) "<sup class=\"corr\">*</sup>" "" -}}
 {{- range site.Params.self_names -}}
-  {{- $authors = replaceRE (printf `(^|, )(%s)(,|$)` .) "$1<strong>$2</strong>$3" $authors -}}
+  {{- $authors = replaceRE (printf `(^|, )(%s)(,|$)` .) (printf "${1}<strong>${2}%s</strong>${3}" $star) $authors -}}
 {{- end -}}
 <li class="pub">
   <span class="pub-authors">{{ $authors | safeHTML }}</span>

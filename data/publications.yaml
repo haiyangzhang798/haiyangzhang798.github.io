@@ -2,12 +2,28 @@
 # 由 ORCID (0000-0001-7951-0502) 导出，可直接手动增删改。
 # 也可以运行 R/update_publications.R 从 ORCID 重新生成。
 # 字段：year 年份；title 标题；authors 作者（本人名字会自动加粗）；journal 期刊；doi
-#       featured: true 表示代表作（显示在 Research 页）；note 可写 "Corresponding author" 等
+#       featured: true 表示代表作（显示在 Research 页）
+#       corresponding: true 表示本人为通讯作者（名字后自动加 *）
+- year: 2026
+  title: 'Beyond plant diversity: plant productivity responses to extreme drought are linked to arbuscular mycorrhizal fungal diversity'
+  authors: Fu W, Yu Q, Zhang H, Xu C, Han X, Chen B
+  journal: Global Change Biology
+  doi: 10.1111/gcb.70697
 - year: 2026
   title: Community-level AM fungal interactions lead to unexpected growth and disease outcomes in tomato
   authors: Weinberger NV, Cibils-Stewart X, Brien C, Jewell N, Berger B, Cavagnaro TR, Salomon MJ, Zhang H, Plett JM, Powell JR
   journal: Plant and Soil
   doi: 10.1007/s11104-026-08655-9
+- year: 2026
+  title: Complementarity promotes overyielding in grass-legume intercropping
+  authors: Namuhan, Song Y, Guo T, Shi Y, Wang X, Han X, Wang H, Wei C, Loreau M, Wuyunna, Zhang H
+  journal: Agronomy for Sustainable Development
+  doi: 10.1007/s13593-026-01115-9
+- year: 2026
+  title: 'Divergent chemistry and microbiology, convergent carbon fate: insect frass and plant litter are functionally equivalent under climate warming'
+  authors: Liu Y, Wu J, Wang Y, Yang J, Zhang H, Wei L, Yin Q, Wang Y, Wang X, Jiang L, Jiang Y, Han X, Wang J
+  journal: Soil Biology and Biochemistry
+  doi: 10.1016/j.soilbio.2026.110159
 - year: 2026
   title: Elevated silicon concentrations accelerate decomposition of the dominant silicon-rich grass litter in grassland ecosystems
   authors: Liu Y, Wang Y, Yan K, Wu J, Yin Q, Yang J, Wang Y, Jiang L, Zhang H, Sun OJ, et al.
@@ -19,26 +35,56 @@
   journal: Journal of Experimental Botany
   doi: 10.1093/jxb/eraf459
   featured: true
+  corresponding: true
 - year: 2026
   title: Genome size-driven shifts in grassland productivity and species composition under nitrogen enrichment and mowing
   authors: Li H, Yang J, Han X, Zhang Y, Leitch IJ, Leitch AR, Peñuelas J, Sardans J, Zhang H, Cao D, et al.
   journal: Ecological Monographs
   doi: 10.1002/ecm.70075
 - year: 2026
+  title: Mowing enhances the sensitivity of arbuscular mycorrhizal mycelial carbon pools to nitrogen enrichment in grassland ecosystem
+  authors: Zhang X, Yang J, Miao K, Li Z, Bo Y, Dong X, Jiang L, Kong D, Di X, Han X, Liu L, Fu W, Zhang H, Han X
+  journal: Journal of Ecology
+  doi: 10.1111/1365-2745.70429
+  corresponding: true
+- year: 2026
   title: Nitrogen addition enhances phytolith-occluded carbon accumulation across particulate and mineral-associated organic matter fractions in a meadow steppe
   authors: Li S, Zhang H, Wang J, Jiang L, Yang G, Zhang Y, Wei C, Han X
   journal: Geoderma
   doi: 10.1016/j.geoderma.2026.117875
+  corresponding: true
 - year: 2026
   title: Soil Protist Diversity and Biotic Interactions Shape Ecosystem Functions Under Climate Change
   authors: Liu H, Martins CSC, Zhou G, Jayaramaiah RH, Zhang H, Li J, Singh P, Yan Z, Wang J, Reich PB, et al.
   journal: Global Change Biology
   doi: 10.1111/gcb.70692
+- year: 2026
+  title: Warming combined with drought removes the beneficial effects of arbuscular mycorrhizal fungi on legume (Medicago sativa) nodulation
+  authors: Dong X, Han X, Bo Y, Plett JM, Wang G, Yang J, Miao K, Li Z, Shao W, Zhang X, Jiang L, Han X, Zhang H
+  journal: Ecological Processes
+  doi: 10.1186/s13717-026-00743-z
+- year: 2025
+  title: Drought intensity and duration interact to magnify losses in primary productivity
+  authors: Ohlert T, Smith MD, Collins SL, …, Zhang H, …, et al. (International Drought Experiment)
+  journal: Science
+  doi: 10.1126/science.ads8144
+- year: 2025
+  title: Globally mapping the nitrogen stable isotope ratios of terrestrial vegetation from 1984 to 2022
+  authors: Yang J, Zhang H, Guo Y, Donohue RJ, McVicar TR, Ferrier S, Müller W, Lü X, Fang Y, Wang X, Reich PB, Han X, Mokany K
+  journal: Earth's Future
+  doi: 10.1029/2024ef005836
 - year: 2025
   title: Increase in mineral-associated organic carbon does not offset the decrease in particulate organic carbon under long-term nitrogen enrichment in a steppe ecosystem
   authors: Liu L, Yang J, Wang J, Yu Q, Wei C, Jiang L, Huang J, Zhang Y, Jiang Y, Zhang H, Han X
   journal: Soil Biology and Biochemistry
   doi: 10.1016/j.soilbio.2024.109695
+  corresponding: true
+- year: 2025
+  title: Labile carbon input alleviates nitrogen-induced community instability in a meadow steppe
+  authors: Jiang L, Wang J, Yang G, Ning Q, Wang Y, Li S, Yu L, Liu H, Lü X, Jiang Y, Han X, Wei C, Zhang H
+  journal: Journal of Ecology
+  doi: 10.1111/1365-2745.70001
+  corresponding: true
 - year: 2025
   title: Multiple Nutrient Additions Homogenize Multidimensional Plant Stoichiometry in a Meadow Steppe
   authors: Peng Y, Yang JX, Seabloom EW, Sardans J, Peñuelas J, Zhang HY, Wei CZ, Han XG
@@ -49,11 +95,13 @@
   authors: Zhang X, Bo Y, Jiang L, Wang J, Yu L, Fu W, He X, Dong X, Han X, Zhang H
   journal: Functional Ecology
   doi: 10.1111/1365-2435.70042
+  corresponding: true
 - year: 2025
   title: Phytolith formation and its contribution to soil organic carbon sequestration in an Inner Mongolia grassland under long-term nitrogen deposition
   authors: Li S, Jiang L, Yang G, Han X, Jie D, Chen N, Zhang H
   journal: Journal of Environmental Management
   doi: 10.1016/j.jenvman.2025.125596
+  corresponding: true
 - year: 2024
   title: Global pattern of organic carbon pools in forest soils
   authors: Zhang Y, Guo X, Chen L, Kuzyakov Y, Wang R, Zhang H, Han X, Jiang Y, Sun OJ
@@ -65,16 +113,28 @@
   journal: Geoderma
   doi: 10.1016/j.geoderma.2024.116841
 - year: 2024
+  title: 'Mechanisms of biodiversity loss under nitrogen enrichment: unveiling a shift from light competition to cation toxicity'
+  authors: Namuhan, Wang J, Yang G, Song Y, Yu Y, Wang J, Wang X, Shi Y, Shen Y, Han X, Wuyunna, Zhang H
+  journal: New Phytologist
+  doi: 10.1111/nph.19941
+- year: 2024
   title: Nitrogen niche partitioning between tropical legumes and grasses conditionally weakens under elevated CO2
   authors: Churchill AC, Zhang H, Kim GW, Catunda KLM, Anderson IC, Isbell F, Moore B, Pendall E, Plett JM, Powell JR, Power SA
   journal: Functional Ecology
   doi: 10.1111/1365-2435.14595
+- year: 2024
+  title: Rapid quantification of biological nitrogen fixation using optical spectroscopy
+  authors: Zhang H, Plett JM, Catunda KLM, Churchill AC, Moore BD, Powell JR, Power SA, Yang J, Anderson IC
+  journal: Journal of Experimental Botany
+  doi: 10.1093/jxb/erad426
+  corresponding: true
 - year: 2024
   title: 'Traits-based approach: leveraging genome size in plant–microbe interactions'
   authors: Zhang H, Liu H, Han X
   journal: Trends in Microbiology
   doi: 10.1016/j.tim.2023.10.004
   featured: true
+  corresponding: true
 - year: 2023
   title: 5300-Year-old soil carbon is less primed than young soil organic matter
   authors: Su J, Zhang H, Han X, Lv R, Liu L, Jiang Y, Li H, Kuzyakov Y, Wei C
@@ -101,23 +161,32 @@
   journal: Molecular Ecology
   doi: 10.1111/mec.16278
   featured: true
+  corresponding: true
 - year: 2023
   title: Fungal genome size and composition reflect ecological strategies along soil fertility gradients
   authors: Zhang HY, Bissett A, Aguilar-Trigueros CA, Liu HW, Powell JR
   journal: Ecology Letters
   doi: 10.1111/ele.14224
   featured: true
+  corresponding: true
 - year: 2023
   title: Symbiotic status alters fungal eco-evolutionary offspring trajectories
   authors: Aguilar-Trigueros CA, Krah FS, Cornwell WK, Zanne AE, Abrego N, Anderson IC, Andrew CJ, Baldrian P, Baessler C, Bissett A, et al.
   journal: Ecology Letters
   doi: 10.1111/ele.14271
 - year: 2023
+  title: Warmer and drier ecosystems select for smaller bacterial genomes in global soils
+  authors: Liu H, Zhang H, Powell J, Delgado-Baquerizo M, Wang J, Singh B
+  journal: iMeta
+  doi: 10.1002/imt2.70
+  corresponding: true
+- year: 2023
   title: β-diversity in temperate grasslands is driven by stronger environmental filtering of plant species with large genomes
   authors: Zhang HY, Lü XT, Wei CZ, Powell JR, Wang XB, Xing DL, Xu ZW, Li HL, Han XG
   journal: Ecology
   doi: 10.1002/ecy.3941
   featured: true
+  corresponding: true
 - year: 2022
   title: High safety margins to drought-induced hydraulic failure found in five pasture grasses
   authors: Jacob V, Choat B, Churchill AC, Zhang H, Barton CVM, Krishnananthaselvan A, Post AK, Power SA, Medlyn BE, Tissue DT
@@ -148,11 +217,13 @@
   authors: Zhang H, Powell JR, Power SA, Churchill AC, Plett JM, Macdonald CA, Jacob V, Kim GW, Pendall E, Tissue DT, et al.
   journal: Pedobiologia
   doi: 10.1016/j.pedobi.2021.150744
+  corresponding: true
 - year: 2021
   title: Climate warming negates arbuscular mycorrhizal fungal reductions in soil phosphorus leaching with tall fescue but not lucerne
   authors: Zhang H, Powell JR, Plett JM, Churchill AC, Power SA, Macdonald CA, Jacob V, Kim GW, Pendall E, Tissue D, et al.
   journal: Soil Biology and Biochemistry
   doi: 10.1016/j.soilbio.2020.108075
+  corresponding: true
 - year: 2020
   title: Changes in soil C:N:P stoichiometry along an aridity gradient in drylands of northern China
   authors: Wang XG, Lü XT, Zhang HY, Dijkstra FA, Jiang YG, Wang XB, Lu JY, Wuyunna, Wang ZW, Han XG
@@ -178,6 +249,7 @@
   authors: Zhang HY, Hartmann H, Gleixner G, Thoma M, Schwab VF
   journal: Geochimica et Cosmochimica Acta
   doi: 10.1016/j.gca.2018.09.035
+  corresponding: true
 - year: 2019
   title: Changes of plant N:P stoichiometry across a 3000-km aridity transect in grasslands of northern China
   authors: Wang XG, Lü XT, Dijkstra FA, Zhang HY, Wang XB, Wuyunna, Wang ZW, Feng J, Han XG
@@ -199,12 +271,14 @@
   journal: Functional Ecology
   doi: 10.1111/1365-2435.12941
   featured: true
+  corresponding: true
 - year: 2018
   title: Foliar nutrient resorption differs between arbuscular mycorrhizal and ectomycorrhizal trees at local and global scales
   authors: Zhang HY, Lü XT, Hartmann H, Keller A, Han XG, Trumbore S, Phillips RP
   journal: Global Ecology and Biogeography
   doi: 10.1111/geb.12738
   featured: true
+  corresponding: true
 - year: 2018
   title: Intraspecific variation drives community-level stoichiometric responses to nitrogen and water enrichment in a temperate steppe
   authors: Lü XT, Hu YY, Zhang HY, Wei HW, Hou SL, Yang GJ, Liu ZY, Wang XB
@@ -220,6 +294,7 @@
   authors: Zhang HY, Yu Q, Lü XT, Trumbore SE, Yang JJ, Han XG
   journal: Oecologia
   doi: 10.1007/s00442-015-3538-5
+  corresponding: true
 - year: 2016
   title: Nitrogen deposition promotes phosphorus uptake of plants in a semi-arid temperate grassland
   authors: Long M, Wu HH, Smith MD, La Pierre KJ, Lu XT, Zhang HY, Han XG, Yu Q
@@ -235,11 +310,13 @@
   authors: Zhang H, Ziegler W, Han X, Trumbore S, Hartmann H
   journal: Plant and Soil
   doi: 10.1007/s11104-015-2599-x
+  corresponding: true
 - year: 2013
   title: 'Sampling Date, Leaf Age and Root Size: Implications for the Study of Plant C:N:P Stoichiometry'
   authors: Zhang H, Wu H, Yu Q, Wang Z, Wei C, Long M, Kattge J, Smith M, Han X
   journal: PLoS ONE
   doi: 10.1371/journal.pone.0060360
+  corresponding: true
 - year: 2012
   title: Nitrogen Addition Regulates Soil Nematode Community Composition through Ammonium Suppression
   authors: Wei C, Zheng H, Li Q, Lu X, Yu Q, Zhang H, Chen Q, He N, Kardol P, Liang W, Han X

@@ -2,6 +2,14 @@
 {{ $me := partial "me.html" . }}
 <div class="container narrow">
   {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+  {{ with $me.editorial }}
+  <section class="cv-section">
+    <h2>{{ i18n "editorial" }}</h2>
+    <ul class="timeline">
+      {{ range . }}<li><span class="when">{{ i18n "present_role" }}</span><div><strong>{{ .role }}</strong><br><a href="{{ .url }}" target="_blank" rel="noopener"><em>{{ .journal }}</em></a></div></li>{{ end }}
+    </ul>
+  </section>
+  {{ end }}
   <section class="cv-section">
     <h2>{{ i18n "experience" }}</h2>
     <ul class="timeline">

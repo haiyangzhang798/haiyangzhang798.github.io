@@ -187,3 +187,10 @@ a:hover{color:var(--accent)}
   .post-link img{width:100%;height:180px}
   .prose h2{font-size:22px}
 }
+
+.corr{font-size:.75em;font-weight:700;color:var(--accent-2);margin-left:1px}
+.pub-legend{font-size:14px;color:var(--muted);margin-top:-.4em}
+.roles{list-style:none;padding:0;margin:0 0 1.2em}
+.roles li{position:relative;padding-left:18px;margin:.35em 0}
+.roles li::before{content:"";position:absolute;left:2px;top:.72em;width:7px;height:7px;border-radius:50%;background:var(--accent)}
+.roles-intro{margin-bottom:.3em!important}

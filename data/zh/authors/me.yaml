@@ -16,6 +16,15 @@ bio: |
 
   加入河北大学之前，曾在德国马普生物地球化学研究所和澳大利亚西悉尼大学从事研究工作。
 
+# 学术兼职（显示在首页简介下方和"经历与荣誉"页）
+editorial:
+  - role: 学科编辑（Subject Editor）
+    journal: Ecological Monographs
+    url: https://esajournals.onlinelibrary.wiley.com/hub/journal/15577015/editorial-board/editorial-board
+  - role: 副主编（Associate Editor）
+    journal: Functional Ecology
+    url: https://besjournals.onlinelibrary.wiley.com/hub/journal/13652435/editorial-board/associate-editors
+
 interests:
   - 丛枝菌根真菌
   - 植物—微生物共生
