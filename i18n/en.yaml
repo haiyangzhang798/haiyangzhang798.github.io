@@ -26,3 +26,6 @@ proj_period: Period
 proj_funder: Funding
 proj_role: Role
 proj_status: Status
+proj_team: Team
+proj_location: Location
+to_project: To project

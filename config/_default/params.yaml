@@ -21,7 +21,7 @@ links:
     url: https://github.com/haiyangzhang798
   - name: Hebei University
     url: https://smkxxy.hbu.cn/info/1099/4203.htm
-email: zhanghaiyang798@gmail.com
+email: "zhanghaiyang798[at]gmail[dot]com"   # 防垃圾邮件写法，网页上不生成可点击的邮件链接
 # 论文列表中加粗显示的本人姓名写法
 self_names: ['Zhang H', 'Zhang HY']
 orcid: '0000-0001-7951-0502'

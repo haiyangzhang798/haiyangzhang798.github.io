@@ -39,7 +39,7 @@ blogdown::stop_server()
 ## 写博客（R Markdown）
 
 ```r
-blogdown::new_post("文章标题", subdir = "post", ext = ".Rmarkdown")
+blogdown::new_post("文章标题", subdir = "en/post", ext = ".Rmarkdown")   # 中文用 subdir = "zh/post"
 ```
 
 新文章默认在 `content/en/post/`；中文文章把文件夹移到 `content/zh/post/`。
@@ -48,7 +48,7 @@ blogdown::new_post("文章标题", subdir = "post", ext = ".Rmarkdown")
 ## 新建项目页
 
 ```r
-blogdown::new_post("项目名称", subdir = "project", ext = ".Rmarkdown")
+blogdown::new_post("项目名称", subdir = "en/project", ext = ".Rmarkdown")   # 中文用 subdir = "zh/project"
 ```
 
 在 front matter 里填写 `period`（起止时间）、`funder`（资助来源）、`role`、`status`、`weight`（排序）；

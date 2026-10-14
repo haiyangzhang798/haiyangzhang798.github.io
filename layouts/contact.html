@@ -4,7 +4,7 @@
     <div class="prose">{{ .Content }}</div>
     <div class="contact-card">
       <h3>{{ i18n "email" }}</h3>
-      <p><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></p>
+      <p>{{ site.Params.email }}</p>
       <h3>{{ i18n "links" }}</h3>
       <ul class="link-list">{{ range site.Params.links }}<li><a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a></li>{{ end }}</ul>
     </div>

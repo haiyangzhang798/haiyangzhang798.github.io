@@ -26,3 +26,6 @@ proj_period: 起止时间
 proj_funder: 资助来源
 proj_role: 本人角色
 proj_status: 状态
+proj_team: 团队成员
+proj_location: 地点
+to_project: 查看平台

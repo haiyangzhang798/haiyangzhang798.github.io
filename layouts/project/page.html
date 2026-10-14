@@ -1,13 +1,23 @@
 {{ define "main" }}
 <div class="container narrow">
+  {{ with .Params.subtitle }}<p class="project-kicker big">{{ . }}</p>{{ end }}
+  {{ with .Params.summary }}<p class="lead project-lead">{{ . }}</p>{{ end }}
   <dl class="project-facts">
     {{ with .Params.period }}<div><dt>{{ i18n "proj_period" }}</dt><dd>{{ . }}</dd></div>{{ end }}
-    {{ with .Params.funder }}<div><dt>{{ i18n "proj_funder" }}</dt><dd>{{ . }}</dd></div>{{ end }}
-    {{ with .Params.role }}<div><dt>{{ i18n "proj_role" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+    {{ with .Params.location }}<div><dt>{{ i18n "proj_location" }}</dt><dd>{{ . }}</dd></div>{{ end }}
     {{ with .Params.status }}<div><dt>{{ i18n "proj_status" }}</dt><dd>{{ . }}</dd></div>{{ end }}
+    {{ with .Params.role }}<div><dt>{{ i18n "proj_role" }}</dt><dd>{{ . }}</dd></div>{{ end }}
   </dl>
   <article class="prose">
     {{ .Content }}
+    {{ with .Params.team }}
+    <h2>{{ i18n "proj_team" }}</h2>
+    <p class="team-line">{{ range $i, $n := . }}{{ if $i }} · {{ end }}{{ if in (slice "Haiyang Zhang" "张海洋") $n }}<strong>{{ $n }}</strong>{{ else }}{{ $n }}{{ end }}{{ end }}</p>
+    {{ end }}
+    {{ with .Params.funding }}
+    <h2>{{ i18n "proj_funder" }}</h2>
+    <ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+    {{ end }}
   </article>
   <p class="back"><a href="{{ .Parent.RelPermalink }}">← {{ .Parent.Title }}</a></p>
 </div>

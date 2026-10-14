@@ -7,9 +7,9 @@ options(
   blogdown.hugo.version = "0.161.1",
   # 新建文章默认用 .Rmarkdown（输出 Markdown，公式和代码高亮交给 Hugo 主题处理）
   blogdown.ext = ".Rmarkdown",
-  # 新文章放在页面包（文件夹）里：content/en/post/<slug>/index.Rmarkdown
+  # 新文章放在页面包（文件夹）里：content/en/post/<slug>/index.Rmarkdown（中文请在 new_post 里写 subdir = "zh/post"）
   blogdown.new_bundle = TRUE,
-  blogdown.subdir = "post",
+  blogdown.subdir = "en/post",
   blogdown.author = "me",
   # 保存 .Rmarkdown 时自动 knit；打开项目时不自动启动预览
   blogdown.knit.on_save = TRUE,

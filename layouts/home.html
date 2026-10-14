@@ -23,7 +23,7 @@
       </div>
       <ul class="link-list">
         {{ range site.Params.links }}<li><a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a></li>{{ end }}
-        <li><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></li>
+        <li class="email-text">{{ i18n "email" }}: {{ site.Params.email }}</li>
       </ul>
     </div>
   </div>
