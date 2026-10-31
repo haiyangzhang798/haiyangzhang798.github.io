@@ -18,7 +18,7 @@ Industrial and agricultural expansion has sharply increased reactive nitrogen, m
 
 This long-term experiment was designed by Prof. Xingguo Han and established in the Hulunbuir grassland in 2014, with Assoc. Prof. Guojiao Yang managing the platform in its early years. It combines five common nitrogen compounds, six addition rates and mowing to test how changing nitrogen availability affects grassland structure and function.
 
-<figure><a href="/images/projects/nitrogen-compounds/aerial.jpg"><img src="/images/projects/nitrogen-compounds/aerial.jpg" alt="Figure 1. Aerial view of the experiment" loading="lazy"></a><figcaption>Figure 1. Aerial view of the experiment</figcaption></figure>
+<figure><a href="/images/projects/nitrogen-compounds/aerial.jpg"><img src="/images/projects/nitrogen-compounds/aerial-sm.jpg" alt="Figure 1. Aerial view of the experiment" loading="lazy"></a><figcaption>Figure 1. Aerial view of the experiment</figcaption></figure>
 
 ## Experimental design
 
@@ -32,11 +32,11 @@ This long-term experiment was designed by Prof. Xingguo Han and established in t
 Since 2023 our group has studied arbuscular mycorrhizal (AM) fungi on this platform, including extracting and quantifying hyphae and spores. In 2026 we nested an artificial light at night (light pollution) treatment within the nitrogen treatments to study how the insect–plant–soil–microbe system responds to the combined global changes of nitrogen deposition and light pollution.
 
 <div class="gallery ">
-<figure><a href="/images/projects/nitrogen-compounds/fieldwork.jpg"><img src="/images/projects/nitrogen-compounds/fieldwork.jpg" alt="Figure 2. Field sampling" loading="lazy"></a><figcaption>Figure 2. Field sampling</figcaption></figure>
-<figure><a href="/images/projects/nitrogen-compounds/amf-lab.jpg"><img src="/images/projects/nitrogen-compounds/amf-lab.jpg" alt="Figure 3. Extracting and weighing AM fungal spores and hyphae" loading="lazy"></a><figcaption>Figure 3. Extracting and weighing AM fungal spores and hyphae</figcaption></figure>
-<figure><a href="/images/projects/nitrogen-compounds/alan-night.jpg"><img src="/images/projects/nitrogen-compounds/alan-night.jpg" alt="Figure 4. Light-at-night treatment nested in the nitrogen plots" loading="lazy"></a><figcaption>Figure 4. Light-at-night treatment nested in the nitrogen plots</figcaption></figure>
-<figure><a href="/images/projects/nitrogen-compounds/alan-aerial-night.jpg"><img src="/images/projects/nitrogen-compounds/alan-aerial-night.jpg" alt="Figure 5. The light treatment from the air at night" loading="lazy"></a><figcaption>Figure 5. The light treatment from the air at night</figcaption></figure>
-<figure><a href="/images/projects/nitrogen-compounds/insect-trap.jpg"><img src="/images/projects/nitrogen-compounds/insect-trap.jpg" alt="Figure 6. Insect traps and sample collection" loading="lazy"></a><figcaption>Figure 6. Insect traps and sample collection</figcaption></figure>
+<figure><a href="/images/projects/nitrogen-compounds/fieldwork.jpg"><img src="/images/projects/nitrogen-compounds/fieldwork-sm.jpg" alt="Figure 2. Field sampling" loading="lazy"></a><figcaption>Figure 2. Field sampling</figcaption></figure>
+<figure><a href="/images/projects/nitrogen-compounds/amf-lab.jpg"><img src="/images/projects/nitrogen-compounds/amf-lab-sm.jpg" alt="Figure 3. Extracting and weighing AM fungal spores and hyphae" loading="lazy"></a><figcaption>Figure 3. Extracting and weighing AM fungal spores and hyphae</figcaption></figure>
+<figure><a href="/images/projects/nitrogen-compounds/alan-night.jpg"><img src="/images/projects/nitrogen-compounds/alan-night-sm.jpg" alt="Figure 4. Light-at-night treatment nested in the nitrogen plots" loading="lazy"></a><figcaption>Figure 4. Light-at-night treatment nested in the nitrogen plots</figcaption></figure>
+<figure><a href="/images/projects/nitrogen-compounds/alan-aerial-night.jpg"><img src="/images/projects/nitrogen-compounds/alan-aerial-night-sm.jpg" alt="Figure 5. The light treatment from the air at night" loading="lazy"></a><figcaption>Figure 5. The light treatment from the air at night</figcaption></figure>
+<figure><a href="/images/projects/nitrogen-compounds/insect-trap.jpg"><img src="/images/projects/nitrogen-compounds/insect-trap-sm.jpg" alt="Figure 6. Insect traps and sample collection" loading="lazy"></a><figcaption>Figure 6. Insect traps and sample collection</figcaption></figure>
 </div>
 
 ## Research questions

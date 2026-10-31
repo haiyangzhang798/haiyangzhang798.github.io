@@ -18,7 +18,7 @@ funding: ["教育部海外人才引才专项", "河北大学人才引进专项"]
 
 不同草地的抗旱能力和恢复潜力是否相同？地上植物与地下微生物又如何协同应对干旱与恢复？回答这些问题，需要在统一的实验设计下比较多个草地。平台于 2018 年启动，在我国不同气候区和草地类型的 7 个站点开展标准化干旱实验。课题组于 2025 年加入，重点开展根系、丛枝菌根真菌（AMF）菌丝和地下微生物的观测，研究水分与养分限制如何影响地下共生体系和生态系统碳循环。
 
-<figure><a href="/images/projects/drought-network/map.jpg"><img src="/images/projects/drought-network/map.jpg" alt="图 1　干旱联网实验站点分布" loading="lazy"></a><figcaption>图 1　干旱联网实验站点分布</figcaption></figure>
+<figure><a href="/images/projects/drought-network/map.jpg"><img src="/images/projects/drought-network/map-sm.jpg" alt="图 1　干旱联网实验站点分布" loading="lazy"></a><figcaption>图 1　干旱联网实验站点分布</figcaption></figure>
 
 ## 实验设计
 
@@ -36,7 +36,7 @@ funding: ["教育部海外人才引才专项", "河北大学人才引进专项"]
 
 课题组的特色是用**根系和菌丝原位内生长袋**区分根系与 AMF 菌丝的生长和资源获取，再结合菌丝纯化、脂质组学和根际/菌丝际微生物组学，把植物资源分配、AMF 的生化响应、地下微生物互作与土壤碳固持联系起来。
 
-<figure><a href="/images/projects/drought-network/field.jpg"><img src="/images/projects/drought-network/field.jpg" alt="图 2　野外平台与学生野外工作" loading="lazy"></a><figcaption>图 2　野外平台与学生野外工作</figcaption></figure>
+<figure><a href="/images/projects/drought-network/field.jpg"><img src="/images/projects/drought-network/field-sm.jpg" alt="图 2　野外平台与学生野外工作" loading="lazy"></a><figcaption>图 2　野外平台与学生野外工作</figcaption></figure>
 
 ## 科学问题
 

@@ -18,7 +18,7 @@ Extreme droughts are becoming more frequent. During drought, water deficit suppr
 
 Do grasslands differ in their resistance to drought and their capacity to recover? How do plants above ground and microbes below ground respond together? Answering these questions requires comparing many grasslands under one common design. The platform was launched in 2018 with a standardised drought experiment at seven sites spanning China's climate zones and grassland types. Our group joined in 2025, focusing on roots, arbuscular mycorrhizal (AM) fungal hyphae and soil microbes to understand how water and nutrient limitation shape belowground symbioses and the ecosystem carbon cycle.
 
-<figure><a href="/images/projects/drought-network/map.jpg"><img src="/images/projects/drought-network/map.jpg" alt="Figure 1. Locations of the drought network sites" loading="lazy"></a><figcaption>Figure 1. Locations of the drought network sites</figcaption></figure>
+<figure><a href="/images/projects/drought-network/map.jpg"><img src="/images/projects/drought-network/map-sm.jpg" alt="Figure 1. Locations of the drought network sites" loading="lazy"></a><figcaption>Figure 1. Locations of the drought network sites</figcaption></figure>
 
 ## Experimental design
 
@@ -36,7 +36,7 @@ Every growing season the network surveys plant communities (species composition,
 
 Our group adds **in-growth cores and hyphal mesh bags** that separate the growth and resource uptake of roots from those of AM fungal hyphae. Combined with hyphal purification, lipidomics and rhizosphere/hyphosphere microbiome analyses, this links plant carbon allocation, the biochemical responses of AM fungi, belowground microbial interactions and soil carbon sequestration.
 
-<figure><a href="/images/projects/drought-network/field.jpg"><img src="/images/projects/drought-network/field.jpg" alt="Figure 2. The field platform and students at work" loading="lazy"></a><figcaption>Figure 2. The field platform and students at work</figcaption></figure>
+<figure><a href="/images/projects/drought-network/field.jpg"><img src="/images/projects/drought-network/field-sm.jpg" alt="Figure 2. The field platform and students at work" loading="lazy"></a><figcaption>Figure 2. The field platform and students at work</figcaption></figure>
 
 ## Research questions
 

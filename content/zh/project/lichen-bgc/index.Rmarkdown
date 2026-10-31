@@ -25,13 +25,13 @@ L-BGC 平台从三个方面开展研究：**活体地衣的碳分配与转化、
 - 移植前人工去除以羊草为主的原有植被、凋落物和根系；移植物种为当地优势地衣大叶石蕊（*Cladonia strepsilis*）。
 - 观测地衣对土壤温湿度、生态系统呼吸以及土壤有机碳组分和稳定性的影响；平台装有激光雪深仪，记录冬季积雪对地衣分解的影响，并在生长季定期用呼吸环测定生态系统呼吸。
 
-<figure><a href="/images/projects/lichen-bgc/plots.jpg"><img src="/images/projects/lichen-bgc/plots.jpg" alt="图 1　L-BGC 平台全景" loading="lazy"></a><figcaption>图 1　L-BGC 平台全景</figcaption></figure>
+<figure><a href="/images/projects/lichen-bgc/plots.jpg"><img src="/images/projects/lichen-bgc/plots-sm.jpg" alt="图 1　L-BGC 平台全景" loading="lazy"></a><figcaption>图 1　L-BGC 平台全景</figcaption></figure>
 
-<div class="gallery square">
-<figure><a href="/images/projects/lichen-bgc/lichen-1.jpg"><img src="/images/projects/lichen-bgc/lichen-1.jpg" alt="图 2　70% 盖度的地衣小区" loading="lazy"></a><figcaption>图 2　70% 盖度的地衣小区</figcaption></figure>
-<figure><a href="/images/projects/lichen-bgc/lichen-2.jpg"><img src="/images/projects/lichen-bgc/lichen-2.jpg" alt="图 3　地衣移植后的近景" loading="lazy"></a><figcaption>图 3　地衣移植后的近景</figcaption></figure>
-<figure><a href="/images/projects/lichen-bgc/lichen-3.jpg"><img src="/images/projects/lichen-bgc/lichen-3.jpg" alt="图 4　地衣与土壤表面" loading="lazy"></a><figcaption>图 4　地衣与土壤表面</figcaption></figure>
-<figure><a href="/images/projects/lichen-bgc/litterbags-plot.jpg"><img src="/images/projects/lichen-bgc/litterbags-plot.jpg" alt="图 5　小区内的分解袋与呼吸环" loading="lazy"></a><figcaption>图 5　小区内的分解袋与呼吸环</figcaption></figure>
+<div class="gallery four square">
+<figure><a href="/images/projects/lichen-bgc/lichen-1.jpg"><img src="/images/projects/lichen-bgc/lichen-1-sm.jpg" alt="图 2　70% 盖度的地衣小区" loading="lazy"></a><figcaption>图 2　70% 盖度的地衣小区</figcaption></figure>
+<figure><a href="/images/projects/lichen-bgc/lichen-2.jpg"><img src="/images/projects/lichen-bgc/lichen-2-sm.jpg" alt="图 3　地衣移植后的近景" loading="lazy"></a><figcaption>图 3　地衣移植后的近景</figcaption></figure>
+<figure><a href="/images/projects/lichen-bgc/lichen-3.jpg"><img src="/images/projects/lichen-bgc/lichen-3-sm.jpg" alt="图 4　地衣与土壤表面" loading="lazy"></a><figcaption>图 4　地衣与土壤表面</figcaption></figure>
+<figure><a href="/images/projects/lichen-bgc/litterbags-plot.jpg"><img src="/images/projects/lichen-bgc/litterbags-plot-sm.jpg" alt="图 5　小区内的分解袋与呼吸环" loading="lazy"></a><figcaption>图 5　小区内的分解袋与呼吸环</figcaption></figure>
 </div>
 
 ## 2026 年新增实验
@@ -39,9 +39,9 @@ L-BGC 平台从三个方面开展研究：**活体地衣的碳分配与转化、
 - **地衣残体多样性与混合分解**：选用 2 种固氮地衣（茸珊瑚枝、分指地卷）和 2 种非固氮地衣（分枝石蕊、扁枝衣），设置 1–4 种的多样性梯度，4 个重复、4 次取样，研究残体多样性如何影响混合分解及其化学—微生物调控机制。
 - **紫外辐射与地衣分解**：以旱黄梅衣、中国树花为对象、羊草为对照，设置透 UV / 滤 UV 与有土 / 无土处理，定期测定质量损失、碳氮组分、黑色素、酚类和土壤微生物指标，检验地衣是否存在不依赖木质素的"光—生物耦合"分解途径。
 
-<div class="gallery ">
-<figure><a href="/images/projects/lichen-bgc/litterbags-diversity.jpg"><img src="/images/projects/lichen-bgc/litterbags-diversity.jpg" alt="图 6　地衣残体多样性分解实验" loading="lazy"></a><figcaption>图 6　地衣残体多样性分解实验</figcaption></figure>
-<figure><a href="/images/projects/lichen-bgc/litterbags-uv.jpg"><img src="/images/projects/lichen-bgc/litterbags-uv.jpg" alt="图 7　紫外线过滤分解实验" loading="lazy"></a><figcaption>图 7　紫外线过滤分解实验</figcaption></figure>
+<div class="gallery two">
+<figure><a href="/images/projects/lichen-bgc/litterbags-diversity.jpg"><img src="/images/projects/lichen-bgc/litterbags-diversity-sm.jpg" alt="图 6　地衣残体多样性分解实验" loading="lazy"></a><figcaption>图 6　地衣残体多样性分解实验</figcaption></figure>
+<figure><a href="/images/projects/lichen-bgc/litterbags-uv.jpg"><img src="/images/projects/lichen-bgc/litterbags-uv-sm.jpg" alt="图 7　紫外线过滤分解实验" loading="lazy"></a><figcaption>图 7　紫外线过滤分解实验</figcaption></figure>
 </div>
 
 ## 科学问题

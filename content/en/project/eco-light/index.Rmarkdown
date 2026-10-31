@@ -16,9 +16,9 @@ funding: ["Young Scholars Program, Institute of Life Science and Green Developme
 
 What happens to grassland insects, soil microbes and ecosystem carbon and nitrogen cycling when city nights are no longer dark? Street lamps, decorative lighting and building illumination change the night-time environment of urban green spaces, and with it the daily rhythms, feeding behaviour and species interactions of many organisms. ECO-Light asks **how artificial light at night (ALAN) affects above- and belowground interactions and, ultimately, ecosystem functions**.
 
-<div class="gallery ">
-<figure><a href="/images/projects/eco-light/night.jpg"><img src="/images/projects/eco-light/night.jpg" alt="Figure 1. The light treatment at night" loading="lazy"></a><figcaption>Figure 1. The light treatment at night</figcaption></figure>
-<figure><a href="/images/projects/eco-light/day.jpg"><img src="/images/projects/eco-light/day.jpg" alt="Figure 2. The platform by day" loading="lazy"></a><figcaption>Figure 2. The platform by day</figcaption></figure>
+<div class="gallery two">
+<figure><a href="/images/projects/eco-light/night.jpg"><img src="/images/projects/eco-light/night-sm.jpg" alt="Figure 1. The light treatment at night" loading="lazy"></a><figcaption>Figure 1. The light treatment at night</figcaption></figure>
+<figure><a href="/images/projects/eco-light/day.jpg"><img src="/images/projects/eco-light/day-sm.jpg" alt="Figure 2. The platform by day" loading="lazy"></a><figcaption>Figure 2. The platform by day</figcaption></figure>
 </div>
 
 ## Experimental design
@@ -30,18 +30,18 @@ What happens to grassland insects, soil microbes and ecosystem carbon and nitrog
 
 ## Monitoring
 
-- **Insects** — custom-built, rain-proof modular flight-interception traps (clear cross-vanes with collectors above and below) hang from the plot frames, and pitfall traps with rain covers, drainage and escape barriers sample ground-active insects. We record community composition, diversity, abundance, biomass and individual traits.
+- **Insects** — custom-built, rain-proof modular flight-interception traps (clear cross-vanes with collectors above and below) hang from the plot frames, and pitfall traps with rain covers, drainage and escape barriers sample ground-active insects. We analyse insect community composition and plant–insect interactions.
 - **Soil fauna** — bait-lamina strips measure soil-animal feeding activity during the growing season.
 - **Mycorrhizal fungi** — hyphal in-growth bags are installed monthly to track AM fungal carbon supply, hyphal traits and hyphosphere microbes through the season.
 - **Carbon and nitrogen fluxes** — respiration collars, chamber bases and isotope-labelling areas are used to measure net ecosystem CO₂ exchange, ecosystem and soil respiration and greenhouse-gas fluxes, tracing how carbon and nitrogen move among plants, soil and microbes.
 
 ## Research questions
 
-1. Above ground, how does light at night change the diversity and traits of insect communities and their interactions with plants?
+1. Above ground, how does light at night change insect community composition and the interactions between insects and plants?
 2. In the rhizosphere, how do mycorrhizal fungi and microbial communities respond to light at night? Are the responses transient or lasting, how do they vary in time and space, and how do they affect plant carbon supply belowground?
 3. Below ground, how do soil animals and microbes interact, and how do these interactions regulate soil carbon and nitrogen cycling?
 4. At the ecosystem scale, how does light at night ultimately affect carbon uptake and nitrogen cycling?
 
 ECO-Light provides a long-term, controlled and multi-dimensional field experiment for ecology in an urbanising world. Our aim is to follow the chain of effects set off by night-time lighting — from the beat of an insect's wings to the growth of fungal hyphae, all the way to the fate of each carbon atom in the soil.
 
-<figure><a href="/images/projects/eco-light/eco-lighters.jpg"><img src="/images/projects/eco-light/eco-lighters.jpg" alt="Figure 3. The students who run the platform — the "Eco-lighters"" loading="lazy"></a><figcaption>Figure 3. The students who run the platform — the "Eco-lighters"</figcaption></figure>
+<figure><a href="/images/projects/eco-light/eco-lighters.jpg"><img src="/images/projects/eco-light/eco-lighters-sm.jpg" alt="Figure 3. The students who run the platform — the "Eco-lighters"" loading="lazy"></a><figcaption>Figure 3. The students who run the platform — the "Eco-lighters"</figcaption></figure>

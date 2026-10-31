@@ -18,7 +18,7 @@ funding: ["河北大学人才引进专项"]
 
 2014 年，韩兴国教授设计并在呼伦贝尔草原建立了这一长期实验，杨国娇副教授负责前期平台管理。实验用 5 种常见含氮化合物、6 个施氮水平，并结合打草刈割，研究氮素可利用性变化对草地生态系统结构和功能的影响。
 
-<figure><a href="/images/projects/nitrogen-compounds/aerial.jpg"><img src="/images/projects/nitrogen-compounds/aerial.jpg" alt="图 1　平台航拍" loading="lazy"></a><figcaption>图 1　平台航拍</figcaption></figure>
+<figure><a href="/images/projects/nitrogen-compounds/aerial.jpg"><img src="/images/projects/nitrogen-compounds/aerial-sm.jpg" alt="图 1　平台航拍" loading="lazy"></a><figcaption>图 1　平台航拍</figcaption></figure>
 
 ## 实验设计
 
@@ -32,11 +32,11 @@ funding: ["河北大学人才引进专项"]
 课题组于 2023 年进入该平台，开展丛枝菌根真菌（AMF）的系列研究，包括菌丝和孢子的提取与定量。2026 年起，我们在氮处理中嵌套了夜间人工光照（光污染）处理，研究在氮沉降与光污染双重全球变化下，草地"昆虫—植物—土壤—微生物"系统如何响应。
 
 <div class="gallery ">
-<figure><a href="/images/projects/nitrogen-compounds/fieldwork.jpg"><img src="/images/projects/nitrogen-compounds/fieldwork.jpg" alt="图 2　野外采样" loading="lazy"></a><figcaption>图 2　野外采样</figcaption></figure>
-<figure><a href="/images/projects/nitrogen-compounds/amf-lab.jpg"><img src="/images/projects/nitrogen-compounds/amf-lab.jpg" alt="图 3　AMF 孢子与菌丝的提取和称量" loading="lazy"></a><figcaption>图 3　AMF 孢子与菌丝的提取和称量</figcaption></figure>
-<figure><a href="/images/projects/nitrogen-compounds/alan-night.jpg"><img src="/images/projects/nitrogen-compounds/alan-night.jpg" alt="图 4　嵌套在氮处理中的夜间光照处理" loading="lazy"></a><figcaption>图 4　嵌套在氮处理中的夜间光照处理</figcaption></figure>
-<figure><a href="/images/projects/nitrogen-compounds/alan-aerial-night.jpg"><img src="/images/projects/nitrogen-compounds/alan-aerial-night.jpg" alt="图 5　光照处理的夜间航拍" loading="lazy"></a><figcaption>图 5　光照处理的夜间航拍</figcaption></figure>
-<figure><a href="/images/projects/nitrogen-compounds/insect-trap.jpg"><img src="/images/projects/nitrogen-compounds/insect-trap.jpg" alt="图 6　昆虫诱捕装置与样品收集" loading="lazy"></a><figcaption>图 6　昆虫诱捕装置与样品收集</figcaption></figure>
+<figure><a href="/images/projects/nitrogen-compounds/fieldwork.jpg"><img src="/images/projects/nitrogen-compounds/fieldwork-sm.jpg" alt="图 2　野外采样" loading="lazy"></a><figcaption>图 2　野外采样</figcaption></figure>
+<figure><a href="/images/projects/nitrogen-compounds/amf-lab.jpg"><img src="/images/projects/nitrogen-compounds/amf-lab-sm.jpg" alt="图 3　AMF 孢子与菌丝的提取和称量" loading="lazy"></a><figcaption>图 3　AMF 孢子与菌丝的提取和称量</figcaption></figure>
+<figure><a href="/images/projects/nitrogen-compounds/alan-night.jpg"><img src="/images/projects/nitrogen-compounds/alan-night-sm.jpg" alt="图 4　嵌套在氮处理中的夜间光照处理" loading="lazy"></a><figcaption>图 4　嵌套在氮处理中的夜间光照处理</figcaption></figure>
+<figure><a href="/images/projects/nitrogen-compounds/alan-aerial-night.jpg"><img src="/images/projects/nitrogen-compounds/alan-aerial-night-sm.jpg" alt="图 5　光照处理的夜间航拍" loading="lazy"></a><figcaption>图 5　光照处理的夜间航拍</figcaption></figure>
+<figure><a href="/images/projects/nitrogen-compounds/insect-trap.jpg"><img src="/images/projects/nitrogen-compounds/insect-trap-sm.jpg" alt="图 6　昆虫诱捕装置与样品收集" loading="lazy"></a><figcaption>图 6　昆虫诱捕装置与样品收集</figcaption></figure>
 </div>
 
 ## 科学问题
