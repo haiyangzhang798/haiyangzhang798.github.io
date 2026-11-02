@@ -38,7 +38,7 @@ education:
   - degree: 生态学 博士
     institution: 中国科学院沈阳应用生态研究所
     start: 2009
-    end: ''            # TODO: 填写毕业年份
+    end: 2015
     note: 导师：韩兴国 研究员
   - degree: 水土保持 学士
     institution: 山东农业大学 林学院
@@ -48,7 +48,7 @@ education:
 experience:
   - role: 教授
     org: 河北大学生命科学学院
-    start: 2023        # TODO: 请确认起始时间
+    start: 2023
     end: ''
   - role: 博士后
     org: 西悉尼大学霍克斯伯里环境研究所，Jeff Powell 实验室
@@ -59,7 +59,7 @@ experience:
     start: 2017-10
     end: 2020-10
   - role: 博士后
-    org: 德国马普生物地球化学研究所，Susan Trumbore 实验室
+    org: 德国马普生物地球化学研究所，Susan Trumbore 与 Henrik Hartmann 实验室
     start: 2015-10
     end: 2017-04
   - role: 联合培养博士生

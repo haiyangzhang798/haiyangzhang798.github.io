@@ -12,7 +12,7 @@ title: Group
 ## Team members
 
 <div class="people">
-<div class="person"><img src="/images/people/zheng-fei.jpg" alt="Fei Zheng" loading="lazy"><strong>Fei Zheng</strong><span class="cn">郑飞</span><span class="role">Assistant Professor</span><span class="focus">Gut microbiome and antibiotic resistance of soil nematodes</span><span class="email">zhengfei[at]hbu[dot]edu[dot]cn</span></div><div class="person"><img src="/images/people/di-xuerong.jpg" alt="Xuerong Di" loading="lazy"><strong>Xuerong Di</strong><span class="cn">狄雪荣</span><span class="role">Assistant Researcher</span><span class="focus">Plant–microbe interactions</span><span class="email">dixuerong[at]hbu[dot]edu[dot]cn</span></div>
+<div class="person"><img src="/images/people/zheng-fei.jpg" alt="Fei Zheng" loading="lazy"><strong>Fei Zheng</strong><span class="cn">郑飞</span><span class="role">Assistant Professor</span><span class="focus">Gut microbiome and antibiotic resistance of soil nematodes</span><span class="email">zhengfei[at]hbu[dot]edu[dot]cn</span></div><div class="person"><img src="/images/people/di-xuerong.jpg" alt="Xuerong Di" loading="lazy"><strong>Xuerong Di</strong><span class="cn">狄雪荣</span><span class="role">Assistant Professor</span><span class="focus">Plant–microbe interactions</span><span class="email">dixuerong[at]hbu[dot]edu[dot]cn</span></div>
 </div>
 
 ## PhD students

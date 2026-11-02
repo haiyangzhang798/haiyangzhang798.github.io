@@ -12,7 +12,7 @@ title: 课题组
 ## 团队成员
 
 <div class="people">
-<div class="person"><img src="/images/people/zheng-fei.jpg" alt="郑飞" loading="lazy"><strong>郑飞</strong><span class="cn">Fei Zheng</span><span class="role">助理教授</span><span class="focus">土壤线虫肠道微生物及其抗生素耐药性</span><span class="email">zhengfei[at]hbu[dot]edu[dot]cn</span></div><div class="person"><img src="/images/people/di-xuerong.jpg" alt="狄雪荣" loading="lazy"><strong>狄雪荣</strong><span class="cn">Xuerong Di</span><span class="role">助理研究员</span><span class="focus">植物—微生物互作</span><span class="email">dixuerong[at]hbu[dot]edu[dot]cn</span></div>
+<div class="person"><img src="/images/people/zheng-fei.jpg" alt="郑飞" loading="lazy"><strong>郑飞</strong><span class="cn">Fei Zheng</span><span class="role">助理教授</span><span class="focus">土壤线虫肠道微生物及其抗生素耐药性</span><span class="email">zhengfei[at]hbu[dot]edu[dot]cn</span></div><div class="person"><img src="/images/people/di-xuerong.jpg" alt="狄雪荣" loading="lazy"><strong>狄雪荣</strong><span class="cn">Xuerong Di</span><span class="role">助理教授</span><span class="focus">植物—微生物互作</span><span class="email">dixuerong[at]hbu[dot]edu[dot]cn</span></div>
 </div>
 
 ## 博士研究生

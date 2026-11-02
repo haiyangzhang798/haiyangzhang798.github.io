@@ -46,7 +46,7 @@ education:
   - degree: PhD in Ecology
     institution: Institute of Applied Ecology, Chinese Academy of Sciences
     start: 2009
-    end: ''            # TODO: 填写毕业年份
+    end: 2015
     note: 'Advisor: Prof. Xingguo Han'
   - degree: BSc in Soil and Water Conservation
     institution: College of Forestry, Shandong Agricultural University
@@ -56,7 +56,7 @@ education:
 experience:
   - role: Professor
     org: School of Life Sciences, Hebei University
-    start: 2023        # TODO: 请确认起始时间
+    start: 2023
     end: ''
   - role: Postdoctoral Fellow
     org: Jeff Powell Lab, Hawkesbury Institute for the Environment, Western Sydney University
@@ -67,7 +67,7 @@ experience:
     start: 2017-10
     end: 2020-10
   - role: Postdoctoral Researcher
-    org: Susan Trumbore Lab, Max Planck Institute for Biogeochemistry
+    org: Susan Trumbore and Henrik Hartmann Labs, Max Planck Institute for Biogeochemistry
     start: 2015-10
     end: 2017-04
   - role: Visiting PhD Student
